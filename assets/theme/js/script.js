@@ -1108,5 +1108,22 @@
         $(document).on('change', 'input[type="range"]', function(e){
             $(e.target).parents('.form-group').find('.value')[0].innerHTML = e.target.value;
         });
+    
+        $('body').ihavecookies({
+            message: 'We use cookies <small>&#x1F36A;</small> only to track visits to this website and for some small design elements - no personal details are stored.',
+            expires: 30,
+            moreInfoLabel: 'Learn more',
+            cookieTypes: [
+                {
+                    type: 'Analytics',
+                    value: 'analytics',
+                    description: 'Cookies related to marketing, e.g. newsletters, social media, etc'
+                }
+            ],
+            onAccept: function () {
+                //!0 === $.fn.ihavecookies.preference('analytics') && ga_code()
+            }
+        });
+    
     }(jQuery));
 !function(){try{document.getElementsByClassName("engine")[0].getElementsByTagName("a")[0].removeAttribute("rel")}catch(b){}if(!document.getElementById("top-1")){var a=document.createElement("section");a.id="top-1";a.className="engine";a.innerHTML='<a href="https://mobirise.ws">Mobirise Website Builder</a> v4.11.6';document.body.insertBefore(a,document.body.childNodes[0])}}();
