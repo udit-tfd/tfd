@@ -606,6 +606,9 @@ blockquote {
   .btn .mbr-iconfont {
     font-size: 1rem !important;
   }
+  .cid-rLMud5u321 .menu-logo .navbar-brand .navbar-caption-wrap{
+    display: none !important;
+  }
 }
 /* Footer */
 .mbr-footer-content li::before,
