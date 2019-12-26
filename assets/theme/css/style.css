@@ -427,10 +427,10 @@ blockquote {
   color: #ffffff;
   border-radius: 0;
   border: 0;
-  font-size: .875rem;
-  line-height: 1.5;
+/*   font-size: .875rem; */
+/*   line-height: 1.5; */
   margin-bottom: 1.875rem;
-  padding: 1.25rem;
+/*   padding: 1.25rem; */
   position: relative; }
   .alert.alert-form::after {
     background-color: inherit;
